@@ -38,6 +38,6 @@ Created by [@anonnihcas] - feel free to contact me!
 
 <!-- Optional -->
 ## License
-This project is open source and available under the [... License]().
+This project is open source and available under the [GNU General Public License v3.0]().
 
 <!-- You don't have to include all sections - just the one's relevant to your project -->
