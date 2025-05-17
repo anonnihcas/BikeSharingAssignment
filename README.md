@@ -11,42 +11,33 @@
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+-  Background: A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+-  A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. In this context,
+-  BoomBikes want to understand the factors affecting the demand for these shared bikes in the American market.
+-  The company wants to know:
+1. Which variables are significant in predicting the demand for shared bikes.
+2. How well those variables describe the bike demands
+- Dataset for the bike can be found in day.csv present in the repo.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- 18 of the independent attributes are sufficient to determine accuracy.  Following are the attributes: holiday, windspeed, registered
+mnth_dec, mnth_feb, mnth_jan, mnth_jul, mnth_mar, mnth_may, mnth_nov, mnth_oct, mnth_sept, weekday_mon, weekday_sat, weekday_sun, weekday_wed,
+weathersit_bad, weathersit_good.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- VIF for the independent attributes are not infinity thus indicating no correlation between attributes.
+- Scatter plot of errors are evenly distributed.
+- Error Terms lie around mean.
 
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+  
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@anonnihcas] - feel free to contact me!
 
 
 <!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
+## License
+This project is open source and available under the [GNU General Public License v3.0]().
 
 <!-- You don't have to include all sections - just the one's relevant to your project -->
